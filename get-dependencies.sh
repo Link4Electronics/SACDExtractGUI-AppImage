@@ -24,5 +24,4 @@ mkdir -p ./AppDir/bin
 
 bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
 bsdtar -xvf sacd_extract-0.3.9.3-173-linux.zip -C ./AppDir/bin
-rm -f *.zip
-rm -f ./AppDir/bin/LICENSE ./AppDir/bin/README.md
+rm -f *.zip ./AppDir/bin/LICENSE ./AppDir/bin/README.md

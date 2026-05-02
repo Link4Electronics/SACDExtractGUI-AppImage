@@ -1,2 +1,2 @@
 #!/bin/sh
-java -jar SACDExtractGUI.jar
+java -jar "$APPDIR/bin/SACDExtractGUI.jar"

@@ -25,7 +25,7 @@ git clone https://github.com/EuFlo/sacd-ripper
 
 mkdir -p ./AppDir/bin
 bsdtar -xvf SACDExtractGUI.zip -C ./AppDir/bin
-rm -f *.zip ./AppDir/bin/LICENSE ./AppDir/bin/README.md
+rm -f ./*.zip ./AppDir/bin/LICENSE ./AppDir/bin/README.md
 cd sacd-ripper/tools/sacd_extract
 cmake -DCMAKE_BUILD_TYPE=Release .
 make -j$(nproc)
